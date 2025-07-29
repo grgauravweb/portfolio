@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gaurav Rai | Full Stack Developer</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+<style>
+    body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #f9f9f9 60%, #e3f2fd 100%);
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+a{
+    text-decoration: none;
+}
+header.hero {
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+header.hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+header.hero p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+.social-icons a {
+  color: #ffffffcc;
+  margin: 0 10px;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  color: #00bcd4;
+}
+
+.section-title {
+  font-weight: bold;
+  color: #2c5364;
+  border-left: 4px solid #00bcd4;
+  padding-left: 12px;
+}
+
+.card {
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.07);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover, .card:focus-within {
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 8px 24px rgba(0,188,212,0.12);
+}
+
+a.btn-info, a.btn-outline-light {
+  transition: background 0.2s, color 0.2s;
+}
+
+a.btn-info:hover {
+  background: #0097a7;
+  color: #fff;
+}
+
+a.btn-outline-light:hover {
+  background: #fff;
+  color: #2c5364;
+}
+
+hr {
+  opacity: 0.15;
+}
+
+footer {
+  background-color: #2c5364;
+  color: #ccc;
+  padding: 20px 0;
+}
+
+.project-link {
+  color: #2c5364;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.project-link:hover {
+  color: #00bcd4;
+  text-decoration: underline;
+}
+.progress-bar {
+  transition: width 0.6s ease;
+}
+.card h5 .fa, .card h5 .fab {
+  vertical-align: middle;
+}
+.whatsapp-float {
+  position: fixed;
+  bottom: 28px;
+  right: 28px;
+  background: #25d366;
+  color: #fff;
+  border-radius: 50%;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.18);
+  z-index: 9999;
+  font-size: 2rem;
+  transition: background 0.2s, box-shadow 0.2s;
+}
+.whatsapp-float:hover {
+  background: #128c7e;
+  color: #fff;
+  box-shadow: 0 8px 24px rgba(0,188,212,0.18);
+  text-decoration: none;
+}
+</style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Gaurav Rai</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+  <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+  <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+  <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+  <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+</ul>
+
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero">
+  <div class="container d-flex flex-column align-items-center">
+    <img src="https://media.licdn.com/dms/image/v2/D4E03AQFzcBZotM0h5A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1698847928321?e=1756944000&v=beta&t=RhcaK6lt4m34z2jsEN8VVEGoCRIVYB0Ybt7S-FWU-BQ&background=2c5364&color=fff&size=128" alt="Gaurav Rai" class="rounded-circle mb-3 shadow" width="128" height="128">
+    <h1 class="mb-2">Gaurav Rai</h1>
+    <p class="lead mb-3">Founder @ BizzBloom Technologies | Full Stack Developer | CTO | AI & Digital Strategy</p>
+    <div class="social-icons mb-3">
+      <a href="https://github.com/grgauravweb" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+      <a href="https://linkedin.com/in/gaurav-rai-3309721b8" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+      <a href="mailto:raig72212@gmail.com" target="_blank"><i class="fas fa-envelope fa-2x"></i></a>
+      <a href="http://grgauravweb.blogspot.com" target="_blank"><i class="fas fa-blog fa-2x"></i></a>
+    </div>
+    <a href="#contact" class="btn btn-info btn-lg px-4 mb-2">Let's Connect</a>
+    <a href="https://drive.google.com/file/d/1tuBknwQCJm7lh6TmWdypIXCPYFnfHcRW/view?usp=sharing" class="btn btn-outline-light btn-sm" target="_blank">View Resume</a>
+  </div>
+</header>
+
+<!-- Section Divider -->
+<hr class="my-0" style="border-top: 2px solid #e0e0e0;">
+
+<!-- Founder Note -->
+<section class="py-5 bg-white">
+  <div class="container">
+    <h2 class="mb-4 section-title"><i class="fas fa-lightbulb me-2"></i>Founder Note</h2>
+    <p>
+      As the founder of <a href="https://bizzbloom.com" target="_blank">Bizzbloom Technologies</a>, I am passionate about building scalable, modern digital solutions that empower businesses. My expertise spans Next.js, Node.js, MongoDB, and mobile app development. I lead with a hands-on approach, focusing on innovation, team growth, and delivering real business value.
+    </p>
+  </div>
+</section>
+
+<!-- Section Divider -->
+<hr class="my-0" style="border-top: 2px solid #e0e0e0;">
+
+<!-- Objective -->
+<section class="py-5 bg-light">
+  <div class="container">
+    <h2 class="mb-4 section-title"><i class="fas fa-bullseye me-2"></i>Objective</h2>
+    <p>
+      To drive impactful tech initiatives and deliver robust digital products, leveraging my full stack expertise and leadership to help organizations innovate and grow.
+    </p>
+  </div>
+</section>
+
+<!-- Section Divider -->
+<hr class="my-0" style="border-top: 2px solid #e0e0e0;">
+
+<!-- Experience -->
+<section id="experience" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="mb-4 section-title"><i class="fas fa-briefcase me-2"></i>Experience</h2>
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+      <div class="col">
+        <div class="card p-4 h-100 border-0 shadow-sm">
+          <div class="d-flex align-items-center mb-2">
+            <i class="fas fa-building fa-lg text-info me-2"></i>
+            <strong>BizzBloom.com</strong>
+          </div>
+          <span class="text-muted">Founder</span>
+          <div class="text-secondary small mb-2">Apr 2024 – Present</div>
+          <p class="mb-0">Leading digital transformation and scalable SaaS solutions for businesses.</p>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card p-4 h-100 border-0 shadow-sm">
+          <div class="d-flex align-items-center mb-2">
+            <i class="fas fa-user-tie fa-lg text-info me-2"></i>
+            <strong>Zenstudy Pvt. Ltd.</strong>
+          </div>
+          <span class="text-muted">Chief Technical Officer</span>
+          <div class="text-secondary small mb-2">Jan 2024 – Apr 2024</div>
+          <p class="mb-0">Oversaw product architecture and team growth for EdTech platforms.</p>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card p-4 h-100 border-0 shadow-sm">
+          <div class="d-flex align-items-center mb-2">
+            <i class="fas fa-code fa-lg text-info me-2"></i>
+            <strong>Robust Results Pvt. Ltd.</strong>
+          </div>
+          <span class="text-muted">Software Developer</span>
+          <div class="text-secondary small mb-2">Sept 2022 – Oct 2022</div>
+          <p class="mb-0">Developed custom web solutions for enterprise clients.</p>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card p-4 h-100 border-0 shadow-sm">
+          <div class="d-flex align-items-center mb-2">
+            <i class="fas fa-project-diagram fa-lg text-info me-2"></i>
+            <strong>National Marketing Projects</strong>
+          </div>
+          <span class="text-muted">Full Stack Developer</span>
+          <div class="text-secondary small mb-2">Jan 2021 – Mar 2021</div>
+          <p class="mb-0">Built and maintained marketing automation tools.</p>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card p-4 h-100 border-0 shadow-sm">
+          <div class="d-flex align-items-center mb-2">
+            <i class="fas fa-globe fa-lg text-info me-2"></i>
+            <strong>MSA Software (USA)</strong>
+          </div>
+          <span class="text-muted">Full Stack Developer</span>
+          <div class="text-secondary small mb-2">Dec 2019 – Jan 2020</div>
+          <p class="mb-0">Contributed to international SaaS product development.</p>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card p-4 h-100 border-0 shadow-sm">
+          <div class="d-flex align-items-center mb-2">
+            <i class="fas fa-server fa-lg text-info me-2"></i>
+            <strong>Mounts Software Services</strong>
+          </div>
+          <span class="text-muted">Full Stack Developer</span>
+          <div class="text-secondary small mb-2">July 2019 – Dec 2019</div>
+          <p class="mb-0">Developed and deployed web applications for clients.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Section Divider -->
+<hr class="my-0" style="border-top: 2px solid #e0e0e0;">
+
+<!-- Services -->
+<section id="services" class="py-5">
+  <div class="container">
+    <h2 class="mb-4 section-title"><i class="fas fa-cogs me-2"></i>Services I Offer</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card text-center p-4 border-0 shadow-sm h-100">
+          <i class="fas fa-laptop-code fa-2x mb-2 text-info"></i>
+          <h5 class="fw-bold mb-2">MERN Stack Development</h5>
+          <p>Modern, scalable web apps using MongoDB, Express, React, and Node.js.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card text-center p-4 border-0 shadow-sm h-100">
+          <i class="fab fa-wordpress fa-2x mb-2 text-info"></i>
+          <h5 class="fw-bold mb-2">WordPress Dev & Plugins</h5>
+          <p>Custom themes, plugins, and full WordPress solutions.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card text-center p-4 border-0 shadow-sm h-100">
+          <i class="fas fa-code fa-2x mb-2 text-info"></i>
+          <h5 class="fw-bold mb-2">Core PHP Web Apps</h5>
+          <p>Robust PHP applications tailored to your business needs.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card text-center p-4 border-0 shadow-sm h-100">
+          <i class="fab fa-react fa-2x mb-2 text-info"></i>
+          <h5 class="fw-bold mb-2">React Native Apps</h5>
+          <p>Cross-platform mobile apps with a native feel.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card text-center p-4 border-0 shadow-sm h-100">
+          <i class="fa-solid fa-cloud fa-2x mb-2 text-info"></i>
+          <h5 class="fw-bold mb-2">Server Management</h5>
+          <p>Cloud deployment, server setup, and ongoing maintenance.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card text-center p-4 border-0 shadow-sm h-100">
+          <i class="fas fa-bullhorn fa-2x mb-2 text-info"></i>
+          <h5 class="fw-bold mb-2">SEO & Digital Marketing</h5>
+          <p>Boost your online presence and reach your target audience.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Section Divider -->
+<hr class="my-0" style="border-top: 2px solid #e0e0e0;">
+
+<!-- Projects -->
+<section id="projects" class="bg-light py-5">
+  <div class="container">
+    <h2 class="mb-4 section-title"><i class="fas fa-folder-open me-2"></i>Projects</h2>
+    <h4 class="fw-bold mb-3">MERN / Next.js / React Native</h4>
+    <div class="row g-4 mb-4">
+      <div class="col-md-6">
+        <div class="card p-3 border-0 shadow-sm h-100">
+          <a href="https://bizzbloom.com" target="_blank" class="project-link">BizzBloom.com</a>
+          <div class="small text-secondary">Next.js + Node.js + MongoDB</div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card p-3 border-0 shadow-sm h-100">
+          <a href="https://zenstudy.in" target="_blank" class="project-link">Zenstudy.in</a>
+          <div class="small text-secondary">MERN stack + React Native</div>
+        </div>
+      </div>
+    </div>
+    <h4 class="fw-bold mb-3">WordPress Projects</h4>
+    <div class="row g-4 mb-4">
+      <div class="col-md-6">
+        <div class="card p-3 border-0 shadow-sm h-100">
+          <a href="https://www.msasoftware.us" target="_blank" class="project-link">MSA Software</a>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card p-3 border-0 shadow-sm h-100">
+          <a href="http://www.mizutechindia.com" target="_blank" class="project-link">Mizutech India</a>
+        </div>
+      </div>
+    </div>
+    <h4 class="fw-bold mb-3">Core PHP Projects</h4>
+    <div class="row g-4 mb-4">
+      <div class="col-md-6">
+        <div class="card p-3 border-0 shadow-sm h-100">
+          <a href="http://www.futurewindows.in" target="_blank" class="project-link">Future Windows</a>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card p-3 border-0 shadow-sm h-100">
+          <a href="http://www.one2onetutorials.com" target="_blank" class="project-link">One2One Tutorials</a>
+        </div>
+      </div>
+    </div>
+    <h4 class="fw-bold mb-3">React.js</h4>
+    <div class="row g-4">
+      <div class="col-md-6">
+        <div class="card p-3 border-0 shadow-sm h-100">
+          <a href="http://www.mounts.in" target="_blank" class="project-link">Mounts Software</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Section Divider -->
+<hr class="my-0" style="border-top: 2px solid #e0e0e0;">
+
+<!-- Skills Section -->
+<section id="skills" class="py-5 bg-white">
+  <div class="container">
+    <h2 class="mb-4 section-title"><i class="fas fa-tools me-2"></i>Skills</h2>
+    <div class="row g-4">
+      <div class="col-md-6">
+        <div class="card p-4 border-0 shadow-sm h-100">
+          <h5 class="fw-bold mb-3"><i class="fab fa-js-square text-warning me-2"></i>JavaScript / TypeScript</h5>
+          <div class="progress mb-2" style="height: 8px;">
+            <div class="progress-bar bg-info" style="width: 95%"></div>
+          </div>
+          <small class="text-muted">React, Next.js, Node.js, Express</small>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card p-4 border-0 shadow-sm h-100">
+          <h5 class="fw-bold mb-3"><i class="fab fa-php text-primary me-2"></i>PHP & WordPress</h5>
+          <div class="progress mb-2" style="height: 8px;">
+            <div class="progress-bar bg-info" style="width: 90%"></div>
+          </div>
+          <small class="text-muted">Core PHP, WordPress Themes & Plugins</small>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card p-4 border-0 shadow-sm h-100">
+          <h5 class="fw-bold mb-3"><i class="fas fa-database text-success me-2"></i>Databases</h5>
+          <div class="progress mb-2" style="height: 8px;">
+            <div class="progress-bar bg-info" style="width: 85%"></div>
+          </div>
+          <small class="text-muted">MongoDB, MySQL</small>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card p-4 border-0 shadow-sm h-100">
+          <h5 class="fw-bold mb-3"><i class="fab fa-react text-info me-2"></i>Mobile & Cloud</h5>
+          <div class="progress mb-2" style="height: 8px;">
+            <div class="progress-bar bg-info" style="width: 80%"></div>
+          </div>
+          <small class="text-muted">React Native, Server Management, AWS</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Section Divider -->
+<hr class="my-0" style="border-top: 2px solid #e0e0e0;">
+
+<!-- Education -->
+<section id="education" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="mb-4 section-title"><i class="fas fa-graduation-cap me-2"></i>Education</h2>
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+      
+      <!-- B.Tech -->
+      <div class="col">
+        <div class="card p-4 border-0 shadow-sm h-100">
+          <h5 class="fw-bold mb-2"><i class="fas fa-university text-info me-2"></i>B.Tech in Computer Science</h5>
+          <div class="text-muted">Mahatma Gandhi Missions College of Engineering and Technology</div>
+          <div class="text-secondary small">Completed: 2024</div>
+        </div>
+      </div>
+
+      <!-- Diploma -->
+      <div class="col">
+        <div class="card p-4 border-0 shadow-sm h-100">
+          <h5 class="fw-bold mb-2"><i class="fas fa-laptop text-info me-2"></i>Diploma in Computer Science</h5>
+          <div class="text-muted">Arunachal University</div>
+          <div class="text-secondary small">Completed: 2021</div>
+        </div>
+      </div>
+
+      <!-- 10th Grade -->
+      <div class="col">
+        <div class="card p-4 border-0 shadow-sm h-100">
+          <h5 class="fw-bold mb-2"><i class="fas fa-school text-info me-2"></i>10th Grade (CBSE)</h5>
+          <div class="text-muted">Central Board of Secondary Education</div>
+          <div class="text-secondary small">Completed: 2018</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Section Divider -->
+<hr class="my-0" style="border-top: 2px solid #e0e0e0;">
+
+<!-- Contact Section -->
+<section id="contact" class="py-5">
+  <div class="container">
+    <h2 class="mb-4 section-title"><i class="fas fa-envelope-open-text me-2"></i>Contact</h2>
+    <div class="row">
+      <div class="col-md-6 mb-3">
+        <div class="card p-4 border-0 shadow-sm h-100">
+          <h5 class="fw-bold mb-2"><i class="fas fa-envelope me-2 text-info"></i>Email</h5>
+          <a href="mailto:raig72212@gmail.com" class="text-decoration-none">raig72212@gmail.com</a>
+        </div>
+      </div>
+      <div class="col-md-6 mb-3">
+        <div class="card p-4 border-0 shadow-sm h-100">
+          <h5 class="fw-bold mb-2"><i class="fas fa-phone me-2 text-info"></i>Phone</h5>
+          <a href="tel:+918929708456" class="text-decoration-none">+91 89297 08456</a>
+        </div>
+      </div>
+      <div class="col-md-6 mb-3">
+        <div class="card p-4 border-0 shadow-sm h-100">
+          <h5 class="fw-bold mb-2"><i class="fas fa-blog me-2 text-info"></i>Blog</h5>
+          <a href="http://grgauravweb.blogspot.com" target="_blank" class="text-decoration-none">grgauravweb.blogspot.com</a>
+        </div>
+      </div>
+      <div class="col-md-6 mb-3">
+        <!-- Social icons in one line -->
+        <div class="card p-4 border-0 shadow-sm h-100 d-flex align-items-center">
+          <h5 class="fw-bold mb-2 w-100"><i class="fas fa-share-alt me-2 text-info"></i>Social</h5>
+          <div class="d-flex flex-wrap align-items-center">
+            <a href="https://github.com/grgauravweb" class="me-3 text-dark" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+            <a href="https://linkedin.com/in/gaurav-rai-3309721b8" class="me-3 text-dark" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+            <a href="mailto:raig72212@gmail.com" class="me-3 text-dark"><i class="fas fa-envelope fa-2x"></i></a>
+            <a href="https://instagram.com/raigaurav99" class="me-3 text-dark" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-4">
+    <div class="container">
+      <p class="mb-0">© 2025 Gaurav Rai | Powered by <a href="https://bizzbloom.com" class="text-white" target="_blank">Bizzbloom Technologies Private Limited</a></p>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp Icon -->
+<a href="https://wa.me/918929708456" target="_blank" class="whatsapp-float" aria-label="Chat on WhatsApp">
+  <i class="fab fa-whatsapp"></i>
+</a>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
